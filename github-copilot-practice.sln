@@ -1,0 +1,35 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Day2", "Day2", "{0F7079F7-E55D-ED73-0375-19BFE3B19470}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1) Legacy", "1) Legacy", "{41594A36-4F84-23B6-8570-A4F9F3E39474}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Start", "Start", "{E4EFEC08-BD06-93DB-B95D-553F2EA72E8E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomerManager", "Day2\1) Legacy\Start\CustomerManager.csproj", "{D926E558-44EA-DC9F-493F-6374EBA91A29}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D926E558-44EA-DC9F-493F-6374EBA91A29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D926E558-44EA-DC9F-493F-6374EBA91A29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D926E558-44EA-DC9F-493F-6374EBA91A29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D926E558-44EA-DC9F-493F-6374EBA91A29}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{41594A36-4F84-23B6-8570-A4F9F3E39474} = {0F7079F7-E55D-ED73-0375-19BFE3B19470}
+		{E4EFEC08-BD06-93DB-B95D-553F2EA72E8E} = {41594A36-4F84-23B6-8570-A4F9F3E39474}
+		{D926E558-44EA-DC9F-493F-6374EBA91A29} = {E4EFEC08-BD06-93DB-B95D-553F2EA72E8E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AFC9BB87-D2DE-488C-BCFA-50932E97D00B}
+	EndGlobalSection
+EndGlobal
